@@ -1,0 +1,2 @@
+# To donwload playlist with index number and title. Max quality 1080P. Used quotes to escape some special charecters and used double percentage to escape percantage in cmd
+youtube-dl.exe --playlist-start 1 -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" -o "%%(playlist_index)s-%%(title)s.%%(ext)s" https://www.youtube.com/playlist?list=PLcNWqzWzYG2s5lVEJJK-TPivoT5VS_WTK    
